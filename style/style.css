@@ -25,10 +25,14 @@ body{
     border-radius: 8px;
     padding: 15px 20px;
     border:1px solid #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
 }
 .navber-text{
-    font-size:20px px bold;
-    font-weight: 500;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
 
 }
 
@@ -443,6 +447,7 @@ body{
     padding: 18px 40px;
     color: #646363;
     border: none;
+    border-radius: 3px;
 }
 .newsletter-container button{
     width: 150px;
@@ -452,7 +457,11 @@ body{
     color: #FFFFFF;
     border: none;
     background-color: #006A50;
+    border-radius: 3px;
 }
+/* .newsletter-container button:hover{
+    background-color: #006A50;
+} */
 .newsletter-container .declarens{
     width: 622px;
     height: 19px;
@@ -460,4 +469,28 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: #646363;
+}
+
+/* footer style */
+.footer{
+    width: 1442px;;
+    height: 226px; ;
+    text-align: center;
+    margin: 100px 250px;
+    background-color: #f6f6f6;
+}
+
+.footer h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    padding-bottom: 32px;
+    padding-top: 50px;
+    border: none;
+}
+.social-item{
+    width: 120.55px;
+    height: 24px;
+    text-align: center;
+    margin:30px 650px;
 }
